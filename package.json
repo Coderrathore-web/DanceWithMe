@@ -1,0 +1,21 @@
+{
+  "name": "dance-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fsevents": "^2.3.2",
+    "mongod": "^2.0.0",
+    "mongoose": "^5.13.1",
+    "nodemon": "^2.0.9",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "vivek rathore",
+  "license": "ISC"
+}

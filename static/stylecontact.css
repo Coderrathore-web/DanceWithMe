@@ -1,0 +1,41 @@
+h1{
+     text-align: center;
+     margin: 12px 0;
+     font-family: 'ZCOOL XiaoWei';
+}
+.myInput{
+    font-size: 16px;
+    width: 40%;
+    padding:9px;
+    margin: 8px;
+    border: 2px solid rgba(79, 197, 181, 0.705);
+    border-radius: 12px;
+    outline: none;
+    font-family: 'ZCOOL XiaoWei';
+}
+.myForm{
+    /* display: flex; */
+    background: url(../static/bg1.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+   
+}
+.btn{
+    padding: 8px 18px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background: tomato;
+    cursor: pointer;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+.btn:hover{
+    color: black;
+    background: cornflowerblue;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
