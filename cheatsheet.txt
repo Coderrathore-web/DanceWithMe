@@ -1,0 +1,11 @@
+1. touch .gitignore
+2. git config --global user.name "Vivek"
+3. git config --global user.email "vivekrathore1801@gmail.com"
+4. git init
+5. git add .
+6. git commit -m "Initial Commit"
+7. git status  #optional
+8. ssh -keygen -t rsa -b 4096 -c "vivekrathore1801@gmail.com"
+9. tail/cat <path to id_rsa.pub>
+10. git remote add origin <ssh url.git>
+11. git push origin master
